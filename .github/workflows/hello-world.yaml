@@ -3,8 +3,9 @@ name: Hello World Workflow
 on: push
 
 jobs:
-  runs-on: ubuntu-latest
+  hello-world:
+    runs-on: ubuntu-latest
 
-  steps:
-    - name: print Hello World
-      run: echo "Hello, World"
+    steps:
+      - name: print Hello World
+        run: echo "Hello, World"
