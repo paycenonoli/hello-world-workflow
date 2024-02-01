@@ -1,0 +1,10 @@
+name: Hello World Workflow
+
+on: push
+
+jobs:
+  runs-on: ubuntu-latest
+
+  steps:
+    - name: print Hello World
+      run: echo "Hello, World"
