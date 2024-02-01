@@ -10,6 +10,6 @@ jobs:
       - name: print Hello World
         run: echo "Hello, World" $$ sleep 30s
       - name: print Hello New Era Solutions
-        run: print "Hello, New Era Solutions" && sleep 30
+        run: echo "Hello, New Era Solutions" && sleep 30
 
         
