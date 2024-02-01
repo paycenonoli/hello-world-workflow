@@ -8,5 +8,8 @@ jobs:
 
     steps:
       - name: print Hello World
-        run: echo "Hello, World"
-        run: sleep 20
+        run: echo "Hello, World" $$ sleep 30s
+      - name: print Hello New Era Solutions
+        run: print "Hello, New Era Solutions" && sleep 30
+
+        
